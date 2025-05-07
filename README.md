@@ -20,3 +20,12 @@ Make sure Python is installed, then open a terminal and run:
 
 ```bash
 python recommender.py
+```
+To test with a different user, just update the user_id value in the script.
+
+## Output
+You'll get a list of recommended page IDs and their scores. The higher the score, the stronger the recommendation.
+Example output:
+```bash
+[(7, 2), (15, 1), (29, 1)]
+```
